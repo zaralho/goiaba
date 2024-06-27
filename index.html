@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js">
-    </script>
     <title>A História da Goiaba</title>
   </head>
   <body>
@@ -12,7 +10,14 @@
       </video>
       <<div class="botao">
 
-        <button type="button" id="bomba" onclick="transicao()">Comece a Jornada</button>
+        <button onclick="transicao()" type="button" id="bomba" >Comece a Jornada</button>
+        <script type="text/javascript">
+          var video = document.getElementById("chupeta");
+
+          function transicao(){
+            video.play();
+          }
+        </script>
       </div>
 
 
