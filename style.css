@@ -20,5 +20,19 @@ video{
 
 
 .botao {
+  background-color: #7b7c7c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
   position: fixed;
+  transition: 0.3s;
+  border-radius: 8px;
+  margin: 4px 2px;
+}
+
+.botao:hover {
+  background-color: #10845c;
+  border-radius: 4px;
 }
