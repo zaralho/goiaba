@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>Linha do Tempo</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linha do Tempo</title> 
+    <style> 
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background-color: gray;
+        }
+
+        main{
+            height: 300px;
+            width: 950px;
+            display: flex;
+        }
+        div{
+            height: 300px;
+            border: 1px solid black;
+            transition-duration: 1s;
+            animation-timing-function: ease-in-out;
+            flex-grow: 1;
+            background-size: cover;
+            background-position: center center;
+        }
+        #div1{
+            background-color: aqua;
+            background-image: url(1801.jpg);
+        }
+        #div2{
+            background-color: greenyellow;
+            background-image: url(1822.jpg);
+        }
+        #div3{
+            background-color: red;
+            background-image: url(1890.jpg);
+        }
+        #div4{
+            background-color: pink;
+            background-image: url(1936.jpg);
+        }
+        #div5{
+            background-color: gray;
+            background-image: url(1937\ -\ 1941.jpg);
+        }
+        #div6{
+            background-color: white;
+            background-image: url(1943\ -\ 1944.jpg);
+        }
+        div:hover{
+            flex-grow: 7;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 title="Alinha do Tempo dos Computadores"> A Linha do Tempo dos Computadores</h1>
+
+    <main> 
+        <div id ="div1"></div>
+        <div id ="div2"></div>
+        <div id ="div3"></div>
+        <div id ="div4"></div>
+        <div id ="div5"></div>
+        <div id ="div6"></div>
+    </main>
+
+</body>
+</html>
