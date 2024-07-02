@@ -1,25 +1,32 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <title>A História da Goiaba</title>
   </head>
   <body>
       <video src="intro.mp4" type="video/mp4" id="chupeta">
       </video>
-      <<div class="botao">
+      <div class="botao">
+        <h1 id="title">Goiaba Grande Madura</h1>
 
-        <button onclick="transicao()" type="button" id="bomba" >Comece a Jornada</button>
+        <button onclick="transicao()" type="button" id="bomba">Comece a Jornada</button>
         <script type="text/javascript">
           var video = document.getElementById("chupeta");
 
           function transicao(){
             video.play();
           }
+            const coisa = document.getElementById("bomba");
+            const outraCoisa = document.getElementById("title");
+            coisa.addEventListener('click', () => coisa.style.opacity = '0');
+            document.querySelector('bomba').addEventListener('transitioned', function(){window.location.replace("transition gozada.html")})
+
         </script>
       </div>
-
 
   </body>
 </html>
