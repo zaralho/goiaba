@@ -16,8 +16,6 @@
         <button onclick="transicao()" type="button" id="bomba">Comece a Jornada</button>
         <script type="text/javascript">
           var video = document.getElementById("chupeta");
-
-          
           
           function transicao(){
             video.play();
@@ -25,8 +23,7 @@
             const coisa = document.getElementById("bomba");
             const outraCoisa = document.getElementById("title");
             coisa.addEventListener('click', () => coisa.style.opacity = '0');
-
-          setTimeout(function poggers(){window.location.href = 'transition gozada.html'}, 5500;)
+            coisa.addEventListener('transitionend', () => window.location.href = 'transition gozada.html');
 
         </script>
       </div>
