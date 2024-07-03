@@ -6,7 +6,7 @@
 
 Nós queremos nossos 50 reais da cantina 
 
-**Não é uma confissão**
+# **Não é uma confissão**
 
 Eu posso ACIDENTALMENTE ter desovado 5 corpos de governantes africanos que estavam planejando aplicar golpes de estado em uma tribo que saguis albinos que vivem nas copas de coqueiros nos lençois maranhenses no fundo da Lagoa Rodrigo de Freitas no Rio de Janeiro. Tudo isso a mando do governo tailandês que, evidentemente, me pagou com memecoins cujo valor individual não ultrapassa um milésimo de dolar.
 
