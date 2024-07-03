@@ -7,7 +7,7 @@
   background-color: #7b7c7c;
   font-size: 5rem;
   transition: 0.3s;
-  border-radius: 8px;
+  border-radius: 2.5rem;
   margin-top: 90rem;
   opacity: .9;
   color: #f1f1f1;
@@ -21,7 +21,7 @@
 
 #bomba:hover {
   background-color: #10845c;
-  border-radius: 4px;
+  border-radius: 2rem;
   opacity: 1;
 }
 
