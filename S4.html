@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linha do Tempo</title>
+<link rel="stylesheet" href="estilo1.css">
+<style>
+p, h2, li, iframe {
+    margin-left: 200px; 
+    margin-right: 200px; 
+    text-align: justify;
+}
+    
+p, li {
+    font-size: large;
+}
+        
+main {
+            height: 300px;
+            width: 950px;
+            display: flex;
+        }
+        .wow{
+            height: 300px;
+            border: 1px solid black;
+            transition-duration: 1s;
+            animation-timing-function: ease-in-out;
+            flex-grow: 1;
+            background-size: cover;
+            background-position: center center;
+        }
+        #div1{
+            background-color: aqua;
+            background-image: url(1801.jpg);
+        }
+        #div2{
+            background-color: greenyellow;
+            background-image: url(1822.jpg);
+        }
+        #div3{
+            background-color: red;
+            background-image: url(1890.jpg);
+        }
+        #div4{
+            background-color: pink;
+            background-image: url(1936.jpg);
+        }
+        #div5{
+            background-color: gray;
+            background-image: url(1937\ -\ 1941.jpg);
+        }
+        #div6{
+            background-color: white;
+            background-image: url(1943\ -\ 1944.jpg);
+        }
+        div:hover{
+            flex-grow: 7;
+        }
+
+        </style>
+</head>
+<header>
+<h1 style="margin: 0.5%;" class="tit1">História da Computação</h1>
+<div class="tit2">
+<a href="S1.html"><strong>Página inicial/Linha do tempo</strong></a> |
+<a href="S2.html"><strong>Imagens/Vídeos/Filmes</strong></a> |
+<a style="color: #d4be5e;" href="S3.html"><strong>Teste de Turing</strong></a> |
+<a href="S4.html"><strong>Linha do Tempo</strong></a>
+</div>
+</header>
+<body>
+    
+    <center>
+        <h1 style="color: #57534D; text-align: center;"> A Linha do Tempo dos Computadores</h1>
+
+        <main> 
+            <div class="wow" id ="div1"></div>
+            <div class="wow"id ="div2"></div>
+            <div class="wow" id ="div3"></div>
+            <div class="wow" id ="div4"></div>
+            <div class="wow" id ="div5"></div>
+            <div class="wow" id ="div6"></div>
+        </main>
+    </center>
+
+</body>
+</html>
